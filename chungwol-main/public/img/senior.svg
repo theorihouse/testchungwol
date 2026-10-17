@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 640">
+  <!-- 선임 NPC 임시 일러스트 (기획서 19장: 30대 중반 남성, 짧은 검정 스포츠머리, 차콜 정장, 흰 셔츠, 남색 넥타이, 목걸이형 사원증). 관리자 페이지에서 교체 가능 -->
+  <defs>
+    <linearGradient id="suit" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#4a4f57"/><stop offset="1" stop-color="#2f333a"/></linearGradient>
+    <linearGradient id="skin" x1="0" x2="1"><stop offset="0" stop-color="#f6d2b4"/><stop offset="1" stop-color="#eebf9c"/></linearGradient>
+  </defs>
+  <!-- 몸 -->
+  <path d="M40 640 C40 470 80 395 200 380 C320 395 360 470 360 640 Z" fill="url(#suit)" stroke="#1f2227" stroke-width="3"/>
+  <!-- 셔츠 -->
+  <path d="M158 384 L200 470 L242 384 Z" fill="#fbfbfb" stroke="#c9ccd1" stroke-width="2"/>
+  <!-- 넥타이 -->
+  <path d="M190 400 L210 400 L216 420 L206 520 L200 530 L194 520 L184 420 Z" fill="#203a6b" stroke="#132544" stroke-width="2"/>
+  <path d="M190 400 L210 400 L206 416 L194 416 Z" fill="#2b4b86"/>
+  <!-- 라펠 -->
+  <path d="M150 386 L200 500 L172 440 L128 420 Z" fill="#3c4148" stroke="#1f2227" stroke-width="2"/>
+  <path d="M250 386 L200 500 L228 440 L272 420 Z" fill="#3c4148" stroke="#1f2227" stroke-width="2"/>
+  <!-- 사원증 줄 -->
+  <path d="M160 392 C165 470 175 520 182 560 M240 392 C235 470 225 520 218 560" fill="none" stroke="#2f62ad" stroke-width="5"/>
+  <rect x="170" y="552" width="60" height="78" rx="4" fill="#fff" stroke="#8ea7c2" stroke-width="2"/>
+  <rect x="170" y="552" width="60" height="16" rx="3" fill="#2f62ad"/>
+  <rect x="185" y="574" width="30" height="30" fill="#cfd9e4"/>
+  <rect x="178" y="610" width="44" height="4" fill="#9fb3c8"/><rect x="178" y="618" width="30" height="4" fill="#9fb3c8"/>
+  <!-- 목 -->
+  <path d="M172 330 L172 392 L200 410 L228 392 L228 330 Z" fill="#e8b693"/>
+  <!-- 귀 -->
+  <ellipse cx="128" cy="232" rx="13" ry="22" fill="#eebf9c" stroke="#c48d68" stroke-width="2"/>
+  <ellipse cx="272" cy="232" rx="13" ry="22" fill="#eebf9c" stroke="#c48d68" stroke-width="2"/>
+  <!-- 얼굴 -->
+  <path d="M132 180 C132 120 268 120 268 180 L266 260 C262 310 232 346 200 350 C168 346 138 310 134 260 Z" fill="url(#skin)" stroke="#c48d68" stroke-width="2.5"/>
+  <!-- 머리카락: 짧은 스포츠머리 -->
+  <path d="M126 200 C118 120 160 88 204 90 C252 90 286 122 276 202 C272 176 262 160 252 152 C236 162 214 150 200 158 C186 148 160 160 146 152 C136 162 130 178 126 200 Z" fill="#17181b"/>
+  <path d="M170 104 l10 -14 l6 14 M208 98 l12 -12 l2 16 M236 108 l12 -8 l-2 14" fill="#17181b" stroke="#17181b" stroke-width="3" stroke-linejoin="round"/>
+  <!-- 눈썹 -->
+  <path d="M152 202 Q170 192 188 200" fill="none" stroke="#1d1d20" stroke-width="7" stroke-linecap="round"/>
+  <path d="M212 200 Q230 192 248 202" fill="none" stroke="#1d1d20" stroke-width="7" stroke-linecap="round"/>
+  <!-- 눈 (웃는 눈매) -->
+  <path d="M156 228 Q170 216 186 228" fill="none" stroke="#1d1d20" stroke-width="5" stroke-linecap="round"/>
+  <path d="M214 228 Q230 216 244 228" fill="none" stroke="#1d1d20" stroke-width="5" stroke-linecap="round"/>
+  <!-- 코 -->
+  <path d="M200 236 L194 274 Q200 280 208 274" fill="none" stroke="#c48d68" stroke-width="3" stroke-linecap="round"/>
+  <!-- 입 -->
+  <path d="M176 300 Q200 322 226 300 Q200 310 176 300 Z" fill="#fff" stroke="#8a4b3a" stroke-width="3" stroke-linejoin="round"/>
+  <!-- 볼 -->
+  <ellipse cx="160" cy="276" rx="12" ry="6" fill="#f0a98a" opacity="0.35"/>
+  <ellipse cx="240" cy="276" rx="12" ry="6" fill="#f0a98a" opacity="0.35"/>
+</svg>

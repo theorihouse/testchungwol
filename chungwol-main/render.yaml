@@ -1,0 +1,31 @@
+# Render Blueprint: 웹 서비스 1개 + PostgreSQL 1개
+# Render 대시보드 → New → Blueprint → 이 저장소 선택
+services:
+  - type: web
+    name: chungwol
+    runtime: node
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 22.22.0
+      - key: DATABASE_URL
+        fromDatabase:
+          name: chungwol-db
+          property: connectionString
+      - key: ADMIN_USERNAME
+        value: admin
+      - key: ADMIN_PASSWORD
+        generateValue: true   # 대시보드 Environment 탭에서 확인
+      - key: INITIAL_INVITE_CODE
+        generateValue: true   # 첫 초대 코드. 대시보드에서 확인하거나 원하는 값으로 바꾸기
+
+databases:
+  - name: chungwol-db
+    plan: free
+    databaseName: chungwol
+    user: chungwol
